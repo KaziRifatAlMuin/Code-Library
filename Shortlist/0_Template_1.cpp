@@ -5,7 +5,6 @@ typedef long long int ll;
 long long int const MOD = 1e9 + 7;
 int const N = 2e5 + 7;
 
-
 void solve()
 {
     int n; cin >> n;
