@@ -24,6 +24,25 @@ vector<int> BFSofGraph(vector<int> adj[], int v, int s)
                 vis[it] = 1; // marking the node as visited
             }
         }
+        // Space complexity: O(n + m)
+        // Time complexity: O(n + m)
+        // runs on all its degree, ie O(2 * m) and O(n) for the queue
+        // it works on the principle of level order traversal
+        // it is used to find the shortest path between two nodes
+        // it is used to find the connected components in a graph
+        // it is used to find the diameter of a tree
+        // it is used to find the level of each node in a tree
+        // it is used to find the minimum spanning tree
+        // it is used to find the shortest path in a weighted graph
+        // it is used to find the shortest path in a unweighted graph
+        // it is used to find the shortest path in a directed graph
+        // it is used to find the shortest path in a undirected graph
+        // it is used to find the shortest path in a cyclic graph
+        // it is used to find the shortest path in a acyclic graph
+        // it is used to find the shortest path in a bipartite graph
+        // it is used to find the shortest path in a connected graph
+        // it is used to find the shortest path in a disconnected graph
+        // it is used to find the shortest path in a tree
     }
     return bfs; // returning the bfs traversal
 }
