@@ -42,7 +42,6 @@ vector<int> BFSofGraph(vector<int> adj[], int v, int s)
         // it is used to find the shortest path in a bipartite graph
         // it is used to find the shortest path in a connected graph
         // it is used to find the shortest path in a disconnected graph
-        // it is used to find the shortest path in a tree
     }
     return bfs; // returning the bfs traversal
 }
@@ -100,7 +99,8 @@ int main()
     // 4 -> 3 5
     // 5 -> 4 1
     // 1 2 5 3 4
-				// This is bfs
+    // This is bfs
+    // Wrote using vscode helper
 
     return 0;
 }
